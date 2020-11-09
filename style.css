@@ -1,66 +1,38 @@
-h1 {
-    color: white;
-    margin-left: 500px;
-
-}
-
-/* * {
-    border: solid;
-} */
 .menu{
-    padding-top: 16px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.header{
-    background-color: cadetblue;
     display: flex;
     justify-content: space-between;
+    background-color:#000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+body{
+    margin: 0px;
+    background-color:#f7f2f2;
+    
 }
 
-.site-description{
-    display: flex;
-    flex-direction: column;
-    justify-content: first baseline;
-}
 
 .grid{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    margin: 40px;
+    font-family: sans-serif;
+    
 }
-
-.footer{
-    display: flex;
-    justify-content: flex-end;
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
 }
-
-p,h2{
-    text-align: center;
-}
-a:link{
-    color: white;
-} 
- a:visited{
-     color: white;
-
-}
-.item{
-    position: relative;
-}
-.item p{
-    position: absolute;
-    top: 50%;
-    left:50% ;
-    transform: translate(-50%,-50%);
-    opacity: 0;
-
-}
-.item:hover p{
-    opacity: 1;
-}
-.item:hover img{
-    opacity: 0.33;
+.origami {
+    
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family: fantasy;
     
 }
